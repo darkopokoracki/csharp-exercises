@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DarkoP\\source\\repos\\Algo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}|Algo\\Algo.csproj|c:\\users\\darkop\\source\\repos\\algo\\algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}|Algo\\Algo.csproj|solutionrelative:algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Algo\\Program.cs",
+              "RelativeDocumentMoniker": "Algo\\Program.cs",
+              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Algo\\Program.cs",
+              "RelativeToolTip": "Algo\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAiwHQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:06:45.909Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
