@@ -120,11 +120,72 @@ namespace Algo
             // Exercise 6
             // Write a program to display piramid-like pattern of asteriks and each row contain an odd number of asteriks
 
+            /*    *
+                 ***
+                ***** 
+            */
+
+            /*
             Console.WriteLine("Enter a number of rows for your piramid-like pattern: ");
             int sizeOfPiramid = int.Parse(Console.ReadLine());
 
+            for (int i = 0; i < sizeOfPiramid; i++)
+            {
+                
+                for (int j = i; j < sizeOfPiramid; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int k = 1; k <= (2 * i - 1); k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            */
 
 
+            // Exercise 7
+            //  Same as previous but this time diamond shape.
+            /*
+               * 
+              ***
+             *****
+              ***
+               *
+            */
+
+            Console.WriteLine("Enter the size of diamond shape, in rows: ");
+            int size = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < size; i++) 
+            {  
+                for (int j = i; j < size; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int k = 1; k <= (2 * i - 1); k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
+            for (int i = size - 1; i >= 1; i--)
+            {
+                for (int j = size; j > i; j--)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int k = 1; k <= (2 * i - 1); k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
