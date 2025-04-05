@@ -156,6 +156,7 @@ namespace Algo
                *
             */
 
+            /*
             Console.WriteLine("Enter the size of diamond shape, in rows: ");
             int size = int.Parse(Console.ReadLine());
 
@@ -186,6 +187,7 @@ namespace Algo
                 }
                 Console.WriteLine();
             }
+            */
         }
     }
 }
