@@ -188,6 +188,39 @@ namespace Algo
                 Console.WriteLine();
             }
             */
+
+            // 5! = 5 * 4 * 3 * 2 * 1 = 120
+            public int FaktorijelNerekurzivno(int y)
+            {
+                if (y == 0)
+                {
+                    return 1;
+                }
+                else
+                {
+                    int faktorijel = 1;
+
+                    for (int i = y; i >= 1; i--)
+                    {
+                        faktorijel = faktorijel * i;
+                    }
+
+                    return faktorijel;
+                }
+            }
+            static int FaktorijelRekurzivno(int x)
+            {
+                if (x == 0)
+                    return 1;
+                else
+                    return x * FaktorijelRekurzivno(x - 1);
+            }
+
+            static void Main(string[] args)
+            {
+                Console.WriteLine("Faktorijel Nerekurzivno od broja 5 je: {0}", FaktorijelNerekurzivno(5).ToString());
+                Console.WriteLine("Faktorijel Rekurzivno od broja 5 je: {0}", FaktorijelRekurzivno(5).ToString());
+            }
         }
     }
 }
