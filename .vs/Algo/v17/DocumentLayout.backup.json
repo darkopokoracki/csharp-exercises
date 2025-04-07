@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DarkoP\\source\\repos\\Algo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{064D54A6-BDFF-4394-B199-19DB904D604F}|Metode\\Metode.csproj|c:\\users\\darkop\\source\\repos\\algo\\metode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{064D54A6-BDFF-4394-B199-19DB904D604F}|Metode\\Metode.csproj|solutionrelative:metode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B30AD3EA-8C99-448C-8A5B-7FBB101A9441}|Rekurzija\\Rekurzija.csproj|c:\\users\\darkop\\source\\repos\\algo\\rekurzija\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30AD3EA-8C99-448C-8A5B-7FBB101A9441}|Rekurzija\\Rekurzija.csproj|solutionrelative:rekurzija\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}|Algo\\Algo.csproj|c:\\users\\darkop\\source\\repos\\algo\\algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}|Algo\\Algo.csproj|solutionrelative:algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Metode\\Program.cs",
-              "RelativeDocumentMoniker": "Metode\\Program.cs",
-              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Metode\\Program.cs",
-              "RelativeToolTip": "Metode\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCsAAAAuAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Rekurzija\\Program.cs",
+              "RelativeDocumentMoniker": "Rekurzija\\Program.cs",
+              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Rekurzija\\Program.cs",
+              "RelativeToolTip": "Rekurzija\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T18:25:19.905Z",
+              "WhenOpened": "2025-04-07T19:16:35.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Algo\\Program.cs",
+              "RelativeDocumentMoniker": "Algo\\Program.cs",
+              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Algo\\Program.cs",
+              "RelativeToolTip": "Algo\\Program.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAowOIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:15:37.785Z",
               "EditorCaption": ""
             }
           ]

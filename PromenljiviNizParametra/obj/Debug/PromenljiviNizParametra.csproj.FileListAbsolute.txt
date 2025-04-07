@@ -1,0 +1,7 @@
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\bin\Debug\PromenljiviNizParametra.exe.config
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\bin\Debug\PromenljiviNizParametra.exe
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\bin\Debug\PromenljiviNizParametra.pdb
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\obj\Debug\PromenljiviNizParametra.csproj.AssemblyReference.cache
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\obj\Debug\PromenljiviNizParametra.csproj.CoreCompileInputs.cache
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\obj\Debug\PromenljiviNizParametra.exe
+C:\Users\DarkoP\source\repos\Algo\PromenljiviNizParametra\obj\Debug\PromenljiviNizParametra.pdb

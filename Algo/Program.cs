@@ -190,6 +190,8 @@ namespace Algo
             */
 
             // 5! = 5 * 4 * 3 * 2 * 1 = 120
+
+            /*
             public int FaktorijelNerekurzivno(int y)
             {
                 if (y == 0)
@@ -221,6 +223,8 @@ namespace Algo
                 Console.WriteLine("Faktorijel Nerekurzivno od broja 5 je: {0}", FaktorijelNerekurzivno(5).ToString());
                 Console.WriteLine("Faktorijel Rekurzivno od broja 5 je: {0}", FaktorijelRekurzivno(5).ToString());
             }
+
+            */
         }
     }
 }
