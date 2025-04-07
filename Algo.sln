@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35906.104 d17.14
+VisualStudioVersion = 17.14.35906.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo", "Algo\Algo.csproj", "{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metode", "Metode\Metode.csproj", "{064D54A6-BDFF-4394-B199-19DB904D604F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064D54A6-BDFF-4394-B199-19DB904D604F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064D54A6-BDFF-4394-B199-19DB904D604F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064D54A6-BDFF-4394-B199-19DB904D604F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064D54A6-BDFF-4394-B199-19DB904D604F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

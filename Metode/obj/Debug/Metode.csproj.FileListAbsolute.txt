@@ -1,0 +1,7 @@
+C:\Users\DarkoP\source\repos\Algo\Metode\bin\Debug\Metode.exe.config
+C:\Users\DarkoP\source\repos\Algo\Metode\bin\Debug\Metode.exe
+C:\Users\DarkoP\source\repos\Algo\Metode\bin\Debug\Metode.pdb
+C:\Users\DarkoP\source\repos\Algo\Metode\obj\Debug\Metode.csproj.AssemblyReference.cache
+C:\Users\DarkoP\source\repos\Algo\Metode\obj\Debug\Metode.csproj.CoreCompileInputs.cache
+C:\Users\DarkoP\source\repos\Algo\Metode\obj\Debug\Metode.exe
+C:\Users\DarkoP\source\repos\Algo\Metode\obj\Debug\Metode.pdb

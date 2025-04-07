@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\DarkoP\\source\\repos\\Algo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}|Algo\\Algo.csproj|c:\\users\\darkop\\source\\repos\\algo\\algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF8EA52D-3FB3-4000-BDEC-D358AEA5CBFC}|Algo\\Algo.csproj|solutionrelative:algo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{064D54A6-BDFF-4394-B199-19DB904D604F}|Metode\\Metode.csproj|c:\\users\\darkop\\source\\repos\\algo\\metode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{064D54A6-BDFF-4394-B199-19DB904D604F}|Metode\\Metode.csproj|solutionrelative:metode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Algo\\Program.cs",
-              "RelativeDocumentMoniker": "Algo\\Program.cs",
-              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Algo\\Program.cs",
-              "RelativeToolTip": "Algo\\Program.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAgwNEAAAANAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Metode\\Program.cs",
+              "RelativeDocumentMoniker": "Metode\\Program.cs",
+              "ToolTip": "C:\\Users\\DarkoP\\source\\repos\\Algo\\Metode\\Program.cs",
+              "RelativeToolTip": "Metode\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:06:45.909Z",
+              "WhenOpened": "2025-04-07T18:25:19.905Z",
               "EditorCaption": ""
             }
           ]
