@@ -189,6 +189,8 @@ namespace Algo
             }
             */
 
+
+            // Ex 8
             // 5! = 5 * 4 * 3 * 2 * 1 = 120
 
             /*
@@ -224,6 +226,67 @@ namespace Algo
                 Console.WriteLine("Faktorijel Rekurzivno od broja 5 je: {0}", FaktorijelRekurzivno(5).ToString());
             }
 
+            */
+
+            // Exercise 9: Write code that will show time difference execution between string type and stringBuilder.
+
+
+            /*
+            var watch = new System.Diagnostics.Stopwatch();
+
+            string exampleString1 = "John";
+
+            watch.Start();
+
+            for (int i = 0; i < 100000; i++)
+            {
+                exampleString1 += "Doe";
+            }
+
+            watch.Stop();
+
+            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+            */
+
+            /*
+            var watch = new System.Diagnostics.Stopwatch();
+
+            StringBuilder exampleString2 = new StringBuilder("John");
+
+            watch.Start();
+
+
+            for (int i = 0; i < 100000000; i++)
+            {
+                exampleString2.Append("Doe");
+            }
+
+            watch.Stop();
+
+            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+            */
+
+            // Just to check:
+            /*
+            string x = "John";
+
+            for (int i = 0; i < 10; i++)
+            {
+                x += "Doe";
+            }
+
+            Console.WriteLine(x);
+            */
+
+            /*
+            StringBuilder x = new StringBuilder("John");
+
+            for (int i = 0; i < 10; i++)
+            {
+                x.Append("Doe");
+            }
+
+            Console.WriteLine(x);
             */
         }
     }
