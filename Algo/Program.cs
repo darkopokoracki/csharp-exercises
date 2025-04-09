@@ -288,6 +288,29 @@ namespace Algo
 
             Console.WriteLine(x);
             */
+
+
+            // Exercise 10:
+            // Find minimum and maximum number of given array of numbers.
+            int[] numbers = { 5, 100, 4, 6, 8, 19, -4, 130, -7, 222, 8 };
+
+            int min = 0; int max = 0;
+
+            for (int i = 0; i < numbers.Length; i++) 
+            { 
+                if (numbers[i] < min)
+                {
+                    min = numbers[i];
+                }
+
+                if (numbers[i] > max)
+                {
+                    max = numbers[i];
+                }
+            }
+
+            Console.WriteLine($"Maximum is: {max}");
+            Console.WriteLine($"Minimum is: {min}");
         }
     }
 }
