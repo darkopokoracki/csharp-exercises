@@ -292,6 +292,8 @@ namespace Algo
 
             // Exercise 10:
             // Find minimum and maximum number of given array of numbers.
+
+            /*
             int[] numbers = { 5, 100, 4, 6, 8, 19, -4, 130, -7, 222, 8 };
 
             int min = 0; int max = 0;
@@ -311,6 +313,46 @@ namespace Algo
 
             Console.WriteLine($"Maximum is: {max}");
             Console.WriteLine($"Minimum is: {min}");
+            */
+
+            // Exercise 11: Lists
+            // *Make a list for storing football players. At the beginning add 2 players
+            // *Add 1 player with Add method
+            // *Make an array with 3 players and add to the list.
+            // *With remove, remove one name from the list
+            // remove range and make list what elements you will remove.
+            // also remove at position 2
+            // console all names with forearch loop.
+            // With contains check if "Wayne Rooney" is in the list
+            // console number of elements and console second element
+
+
+
+
+            List<string> players = new List<string>()
+            {
+                "Wayne Rooney",
+                "Cristiano Ronaldo"
+            };
+            players.Add("Lionel Messi");
+
+            string[] playersArray = { "Pablo Dybala", "David De Gea", "Nemanja Vidic" };
+
+            players.AddRange(playersArray);
+            players.Remove("Cristiano Ronaldo");
+            players.RemoveRange(2, 2);
+            players.RemoveAt(2);
+
+            foreach (string player in players)
+            {
+                Console.WriteLine(player);
+            }
+
+            Console.WriteLine($"Second player is: {players[1]}");
+            Console.WriteLine($"Is Wayne Rooney in the list? --> {players.Contains("Wayne Rooney")}");
+            
+
+
         }
     }
 }
