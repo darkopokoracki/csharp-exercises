@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -326,9 +327,7 @@ namespace Algo
             // With contains check if "Wayne Rooney" is in the list
             // console number of elements and console second element
 
-
-
-
+            /*
             List<string> players = new List<string>()
             {
                 "Wayne Rooney",
@@ -350,7 +349,109 @@ namespace Algo
 
             Console.WriteLine($"Second player is: {players[1]}");
             Console.WriteLine($"Is Wayne Rooney in the list? --> {players.Contains("Wayne Rooney")}");
-            
+            */
+
+
+            // Exercise 12: Assignment: Simple Word List Editor
+            // 1. Create a List<string> of words (e.g., start with 5 hardcoded words).
+            // 2.Display a menu to the user with these options: 
+            // Add a new word
+            // Remove a word
+            // Replace a word
+            // Make all words uppercase
+            // Make all words lowercase
+            // Replace a letter in all words (e.g., replace all "a" with "e")
+            // Show the list
+            // Exit
+            // 3. The user selects an option by typing a number.
+            // 4. The app should keep running until the user chooses to exit.
+
+            List<string> words = new List<string>
+            {
+                "Mobile Phone",
+                "Programming",
+                "Kitchen",
+                "Guitar",
+                "School"
+            };
+
+            Console.WriteLine("Please select one of the options: ");
+            Console.WriteLine("1. Add a new word");
+            Console.WriteLine("2. Remove a word");
+            Console.WriteLine("3. Replace a word");
+            Console.WriteLine("4. Make all words uppercase");
+            Console.WriteLine("5. Make all words lowercase");
+            Console.WriteLine("6. Replace a with e");
+            Console.WriteLine("7. Show the list of all words");
+            Console.WriteLine("0. Exit");
+
+            int option = int.Parse(Console.ReadLine());
+
+            while (option > 0)
+            {
+                switch (option)
+                {
+                    case 0:
+                        System.Environment.Exit(1);
+                        return;
+                    case 1:
+                        Console.WriteLine("Enter a new word: ");
+                        string newWord = Console.ReadLine();
+                        words.Add(newWord);
+                        return;
+                    case 2:
+                        Console.WriteLine("Enter a word you want to remove: ");
+                        string wordToRemove = Console.ReadLine();
+                        Boolean ifWordExists = false;
+                        foreach (string word in words)
+                        {
+                            if (wordToRemove == word)
+                            {
+                                ifWordExists = true;
+                            }
+                        }
+
+                        if (ifWordExists)
+                        {
+                            words.Remove(wordToRemove);
+                        }
+                        return;
+                    case 3:
+                        Console.WriteLine("Enter a new word: ");
+                        string newWordReplacing = Console.ReadLine();
+                        Console.WriteLine("Enter old word: ");
+                        string oldWordReplacing = Console.ReadLine();
+
+                        Boolean isReplacingPossible = false;
+                        foreach (string word in words)
+                        {
+                            if (word == oldWordReplacing)
+                            {
+                                isReplacingPossible = true;
+                            }
+                            else
+                            {
+                                throw new Exception("Replacing is not possible because old word doesnt exists.");
+                                return;
+                            }
+                        }
+
+                        if (isReplacingPossible)
+                        {
+                            int indexOfOldWord = words.IndexOf(oldWordReplacing);
+                            words.Remove(oldWordReplacing);
+                            words.Insert(indexOfOldWord, newWordReplacing);
+                        }
+                        return;
+
+                    case 7:
+                        foreach (string word in words)
+                        {
+                            Console.WriteLine(word);
+                        }
+                        return;
+                }
+            }
 
 
         }
