@@ -1,0 +1,31 @@
+# Ignore Visual Studio temporary files, build results, and user files
+
+## Ignore the VS folder
+.vs/
+
+## Ignore build results
+**/bin/
+**/obj/
+**/out/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Rider and Resharper files
+*.DotSettings.user
+
+## Ignore log and database files
+*.log
+*.pdb
+*.mdb
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore Mac/Linux system files
+.DS_Store
+Thumbs.db

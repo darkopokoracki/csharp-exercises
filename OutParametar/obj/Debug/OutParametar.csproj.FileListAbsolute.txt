@@ -1,7 +1,0 @@
-C:\Users\DarkoP\source\repos\Algo\OutParametar\bin\Debug\OutParametar.exe.config
-C:\Users\DarkoP\source\repos\Algo\OutParametar\bin\Debug\OutParametar.exe
-C:\Users\DarkoP\source\repos\Algo\OutParametar\bin\Debug\OutParametar.pdb
-C:\Users\DarkoP\source\repos\Algo\OutParametar\obj\Debug\OutParametar.csproj.AssemblyReference.cache
-C:\Users\DarkoP\source\repos\Algo\OutParametar\obj\Debug\OutParametar.csproj.CoreCompileInputs.cache
-C:\Users\DarkoP\source\repos\Algo\OutParametar\obj\Debug\OutParametar.exe
-C:\Users\DarkoP\source\repos\Algo\OutParametar\obj\Debug\OutParametar.pdb

@@ -1,7 +1,0 @@
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\bin\Debug\Rekurzija.exe.config
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\bin\Debug\Rekurzija.exe
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\bin\Debug\Rekurzija.pdb
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\obj\Debug\Rekurzija.csproj.AssemblyReference.cache
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\obj\Debug\Rekurzija.csproj.CoreCompileInputs.cache
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\obj\Debug\Rekurzija.exe
-C:\Users\DarkoP\source\repos\Algo\Rekurzija\obj\Debug\Rekurzija.pdb
