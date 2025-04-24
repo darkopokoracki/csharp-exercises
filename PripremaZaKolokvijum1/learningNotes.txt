@@ -1,0 +1,58 @@
+﻿* Postavka zadatka:
+- Napravicemo ATM machine simulaciju koja simulira podizanje para sa racuna i uplacivanje
+- Potrebne su nam dve klase za tekuci i devizni racun
+- Imacemo apstraktnu klasu koja sadrzi sve sto je zajednicko za obe
+- Imacemo interface koji ce nam sluziti da se odredjene stvari u klasama koje ga implmentiraju zapravo ostvare
+- Omoguci da budu razlicite provizije u onodsu da li je devizni ili tekuci
+
+? da li je bolje raditi zadatak od najnizeg nivoa u smislu konkretne klase koje koristimo ili od najviseg nivoa,
+  u smislu od parenta?
+
+* Working progress/ explaination
+1. Napraviti interface IRacun
+	void IsplatiSaRacuna(double iznos)
+	void UplatiNaRacun(double iznos)
+	string VratiPodatkeORacunu()
+	double VratiStanje()
+
+- interface = nam sluzi kao neka vrsta ugovora da sve sto se nalaze u njemu, klasa koja ga implementira
+  mora da ispostuje. Interfejs sadrzi samo deklaraciju (potpis metode)
+  U interfejsu nemamo access modifier zato sto su po defaultu svi public.
+
+2. Napraviti apstraktnu klasu ApstraktniRacun i implementiraj IRacun interface
+
+- Apstraktna klasa = Ovu klasu pravimo da na neki nacin definisemo sve sto je zajednicko za obe klase koje
+  cemo kasnije napraviti
+  razlika izmedju apstraktne klase i obicne:
+  apstratkna klasa moze da nam sluzi kao kombinacija obicne klase i interfejsa. Sta to znaci?
+  U interfejsu ne mozemo da definisemo polja.
+  U apstraktnoj klasi mozemo da imamo apstraktne clanove sto znaci da ko god nasledjuje ovu apstraktnu klasu
+  mora to da implementira. Znaci mi cemo u ovoj apstraktnoj klasi imati neke apstraktne clanove a sa druge strane
+  imacmeo i neke zajednicke stvari za obe klase.
+  Ni interfejs ni apstraktna klasa ne mogu da se instanciraju
+
+3. Definisati polja u apstraktnoj klasi (zajednicke stvari)
+	private double stanje
+	private string brojRacuna
+
+4. Napraviti konstruktor u apstraktnoj klasi
+    public ApstraktniRacun(string brojRacuna, double pocetnoStanje)
+
+5. Napraviti jos jedan konstruktor:
+	public ApstraktniRacun(string brojRacuna): this(brojRacuna, 0)
+
+6. Implementirati svaku metodu na osnovu interfejsa
+
+7. Napraviti metode ProvizijaNaUplatu i ProvizijaNaIsplatu
+	- istrazi formulu za ovo i kako funkcionise 
+	- Ovo napraviti da je protected i abstract
+	(sta je ovde bolje resenje pitati u funkciji tip racuna ili da overajdamo za svaki)??
+
+8. VratiPodatkeORacunu() metodu implementirati tako da bude viertuelna
+	(da li ovo moze da radi i bez virtual?)
+- virtual = omogucjujem overidanje unutar metoda koje ce nsladjivati
+
+9. Pravimo klase koje cemo koristiti (Tekuci i Devizni racun), ovde cemo koristiti ulancavnje konstruktora pomocu base:
+
+10. u glavnoj main metodi napraviti simulaciju preko niza tipa apstraktne klase.
+  
