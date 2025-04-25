@@ -56,3 +56,66 @@
 
 10. u glavnoj main metodi napraviti simulaciju preko niza tipa apstraktne klase.
   
+----- Possible exercises for learning OOP ----
+1. Online Biblioteka (Knjige i Časopisi)
+Napravićemo sistem za upravljanje pozajmljivanjem u online biblioteci.
+
+Potrebne su dve klase: Knjiga i Casopis.
+
+Imaćemo apstraktnu klasu Publikacija koja sadrži zajedničke stvari kao što su naziv, autor i godina izdavanja.
+
+Imaćemo interface Pozajmljivo koji definiše metode za pozajmljivanje i vraćanje.
+
+Uvedi pravilo da knjige mogu da se pozajme na duže vreme od časopisa.
+
+
+
+2. Zdravstveni Sistem (Pacijent i Lekar)
+Napraviti simulaciju zdravstvenog sistema gde se obrađuju osobe u sistemu.
+
+Potrebne su dve klase: Pacijent i Lekar.
+
+Apstraktna klasa Osoba sadrži ime, prezime i JMBG.
+
+Interface PrikazPodataka sadrži metodu za prikaz podataka o osobi.
+
+Razlika: Lekar može imati spisak pacijenata, dok pacijent ima karton sa istorijom bolesti.
+
+
+
+3. Školski Sistem (Učenik i Profesor)
+Simulacija školskog sistema sa učenicima i profesorima.
+
+Klase: Ucenik i Profesor.
+
+Apstraktna klasa OsobaUSkoli sadrži ime, prezime i ID broj.
+
+Interface PrikazInformacija sadrži metodu prikaziInformacije().
+
+Razlika: Profesor ima platu i predmet koji predaje, a učenik ima ocene iz različitih predmeta.
+
+
+
+4. Transportni Sistem (Automobil i Bicikl)
+Napraviti simulaciju transportnih sredstava.
+
+Klase: Automobil i Bicikl.
+
+Apstraktna klasa TransportnoSredstvo sa zajedničkim podacima: brzina, kapacitet itd.
+
+Interface Pokretanje sa metodom pokreni().
+
+Razlika: Automobil koristi gorivo i ima ograničenje brzine, bicikl nema gorivo ali koristi energiju vozača.
+
+
+
+5. E-commerce Platforma (Fizički Proizvod i Digitalni Proizvod)
+Simulacija prodaje proizvoda na online platformi.
+
+Klase: FizickiProizvod i DigitalniProizvod.
+
+Apstraktna klasa Proizvod sadrži naziv, cenu i ID.
+
+Interface Dostava sadrži metodu isporuci().
+
+Razlika: Fizički proizvod se šalje poštom, a digitalni se isporučuje mejlom/online.
