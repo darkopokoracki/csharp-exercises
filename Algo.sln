@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "Long
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PripremaZaKolokvijum1Recap", "PripremaZaKolokvijum1Recap\PripremaZaKolokvijum1Recap.csproj", "{8611C209-1126-4B5D-9B3D-3975ED413CB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{60F41ACD-AB58-4B23-B0D1-1B753C343C67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{8611C209-1126-4B5D-9B3D-3975ED413CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8611C209-1126-4B5D-9B3D-3975ED413CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8611C209-1126-4B5D-9B3D-3975ED413CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F41ACD-AB58-4B23-B0D1-1B753C343C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F41ACD-AB58-4B23-B0D1-1B753C343C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F41ACD-AB58-4B23-B0D1-1B753C343C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F41ACD-AB58-4B23-B0D1-1B753C343C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
