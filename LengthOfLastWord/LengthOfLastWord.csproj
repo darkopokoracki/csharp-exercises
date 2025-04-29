@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5690384-956B-4F19-9ECF-0AEF6029020F}</ProjectGuid>
+    <ProjectGuid>{8254AC3E-6C8A-4E0A-9C0C-6AE4FD5E2F83}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IndexOfTheFirstOccurence</RootNamespace>
-    <AssemblyName>IndexOfTheFirstOccurence</AssemblyName>
+    <RootNamespace>LengthOfLastWord</RootNamespace>
+    <AssemblyName>LengthOfLastWord</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="task.txt" />
+    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
