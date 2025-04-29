@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C87CE1F-EB74-4549-8BD7-7AE95E372856}</ProjectGuid>
+    <ProjectGuid>{D5690384-956B-4F19-9ECF-0AEF6029020F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Serijalizacija</RootNamespace>
-    <AssemblyName>Serijalizacija</AssemblyName>
+    <RootNamespace>IndexOfTheFirstOccurence</RootNamespace>
+    <AssemblyName>IndexOfTheFirstOccurence</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
