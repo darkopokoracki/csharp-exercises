@@ -1,0 +1,10 @@
+﻿- Binary
+- XML
+- JSON
+
+- Serialize
+- Deserialize
+- Adjust Serialize
+
+- Write to the file
+- Read from the file
