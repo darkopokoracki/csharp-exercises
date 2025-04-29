@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfTheFirstOccurence", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{8254AC3E-6C8A-4E0A-9C0C-6AE4FD5E2F83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predavanje8", "Predavanje8\Predavanje8.csproj", "{2B65B9F4-62B7-4EDF-B7B5-32BABDC4AAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{8254AC3E-6C8A-4E0A-9C0C-6AE4FD5E2F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8254AC3E-6C8A-4E0A-9C0C-6AE4FD5E2F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8254AC3E-6C8A-4E0A-9C0C-6AE4FD5E2F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B65B9F4-62B7-4EDF-B7B5-32BABDC4AAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B65B9F4-62B7-4EDF-B7B5-32BABDC4AAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B65B9F4-62B7-4EDF-B7B5-32BABDC4AAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B65B9F4-62B7-4EDF-B7B5-32BABDC4AAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
