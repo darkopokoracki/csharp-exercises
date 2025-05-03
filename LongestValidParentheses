@@ -15,3 +15,16 @@ Output: 0
 Constraints:
 	•	0 <= s.length <= 3 * 104
 	•	s[i] is '(', or ')'.
+
+
+
+propose for this solution:
+1. loop with for loop over the string. char i until
+i < string.Length
+2. in the foor looo ask if the char is open paranthes
+if true then next element must be closed parenthes.
+also we start here while loop.
+3. we need to store those values into new string
+char i and char i + 1.
+4. what if we have longer valid parentheses? 
+this will be big time comolexity
