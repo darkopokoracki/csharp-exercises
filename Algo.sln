@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestValidParentheses", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOne", "PlusOne\PlusOne.csproj", "{164B0B6D-4A97-4D7C-94EC-2CDF503B1A7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{FD37481B-539D-4560-A42D-5BF1AF21AF4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{164B0B6D-4A97-4D7C-94EC-2CDF503B1A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{164B0B6D-4A97-4D7C-94EC-2CDF503B1A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{164B0B6D-4A97-4D7C-94EC-2CDF503B1A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
