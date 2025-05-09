@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOne", "PlusOne\PlusOne.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{FD37481B-539D-4560-A42D-5BF1AF21AF4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Sum", "3Sum\3Sum.csproj", "{1B5A617A-DE9F-4679-B26B-F8D8DF87A875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD37481B-539D-4560-A42D-5BF1AF21AF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5A617A-DE9F-4679-B26B-F8D8DF87A875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5A617A-DE9F-4679-B26B-F8D8DF87A875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5A617A-DE9F-4679-B26B-F8D8DF87A875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5A617A-DE9F-4679-B26B-F8D8DF87A875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
